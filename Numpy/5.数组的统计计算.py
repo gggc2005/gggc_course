@@ -7,3 +7,8 @@ print(a.shape)
 condition = a > 4
 result = np.where(condition)
 print(result)
+
+
+
+b = np.argmax(a,axis=0)
+print(b)
