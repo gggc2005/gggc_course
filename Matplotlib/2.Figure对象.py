@@ -18,3 +18,11 @@ print(axe)
 axe[0,0].plot([1,2],[1,2])
 
 plt.show()
+
+
+
+# plt.subplots()
+fig, axe = plt.subplots()
+print(fig)
+print(axe)
+print(type(axe))
